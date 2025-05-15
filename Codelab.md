@@ -132,24 +132,41 @@ Texto plano en una lista con viñetas:
 ## DataStax Enterprise 
 Duration: 0:03:00
 
-### Cajas de información
-Texto plano.
+¿Qué es DataStax Enterprise (DSE)?
+DataStax Enterprise es una plataforma de datos distribuida que amplía Apache Cassandra con características empresariales avanzadas. Es más poderosa y flexible que usar solo Cassandra.
 
-### Lista con viñetas
-Texto plano en una lista con viñetas:
+🧩 COMPONENTES CLAVE DE DSE
+Componente	Descripción
+⚙️ DSE Core	Motor de base de datos distribuida basado en Apache Cassandra.
+🔍 DSE Search	Búsqueda avanzada tipo full-text usando Apache Solr.
+🧠 DSE Analytics	Integración con Apache Spark para análisis distribuidos.
+🌐 DSE Graph	Base de datos de grafos escalable para relaciones complejas.
+🔒 Seguridad Empresarial	Autenticación, autorización, cifrado, auditoría avanzada.
+🛠️ DSE Studio	Interfaz visual para trabajar con datos, CQL, Spark y Graph.
+📈 DSE OpsCenter	Herramienta de monitoreo y administración visual del clúster.
 
-* Hola
-* CodeLab
-* Mundo
+✅ DIFERENCIAS CLAVE CON CASSANDRA
+Función	Apache Cassandra	DataStax Enterprise (DSE)
+Modelo base	Distribuido, NoSQL	Distribuido, NoSQL
+Búsqueda Full-Text	❌ No	✅ Sí (DSE Search con Solr)
+Análisis en tiempo real	❌ No	✅ Sí (DSE Analytics con Spark)
+Grafos	❌ No	✅ Sí (DSE Graph)
+Seguridad empresarial	Básica	Avanzada (LDAP, Kerberos, cifrado)
+Administración visual	❌ No	✅ Sí (DSE OpsCenter)
+Soporte comercial	❌ Comunidad	✅ Oficial de DataStax
 
-¡Ya tienes tu lista con viñetas creada!
+🧪 ¿Qué puedes hacer en un CodeLab de DataStax con DSE?
+Dependiendo del laboratorio, puedes interactuar con:
 
-### Lista numerada
-1. Lista
-2. Utilizando
-3. Números
+CQL (para tablas y consultas básicas)
 
-¡Ya tienes tu lista numerada creada!
+DSE Graph (con Gremlin para grafos)
+
+DSE Search (consultas full-text)
+
+Spark SQL (para análisis si está habilitado)
+
+REST/GraphQL APIs (si hay endpoints activos)
 
 ## ScyllaDB 
 Duration: 0:03:00
